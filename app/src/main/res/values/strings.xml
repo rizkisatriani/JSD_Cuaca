@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Perkiraan_cuaca</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_set__data">Set_Data</string>
+    <string name="title_activity_dasboard">dasboard</string>
+    <string name="Key_api">e2d1e2c6b5da70e76fb6f7b5c66285f0</string>
+</resources>

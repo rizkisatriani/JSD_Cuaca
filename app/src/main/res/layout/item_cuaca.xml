@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tv_hari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Senin "
+        android:textColor="@color/hitam" />
+
+    <TextView
+        android:id="@+id/tv_tgl_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="10 Jan"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/img_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/jsd_icon" />
+
+    <TextView
+        android:id="@+id/tv_deg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="26"
+        android:textColor="@color/hitam"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_angin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="3m/d"
+        android:textColor="@color/hitam"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_lembab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="91"
+        android:textColor="@color/hitam"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_jam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="23:00"
+        android:textColor="@color/hitam"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/tv_tgl_sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10 Januari"
+        android:textSize="10sp" />
+</LinearLayout>
